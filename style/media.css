@@ -1,0 +1,346 @@
+@media (max-width: 576px) {
+
+  /* global_values */
+
+  section { padding: 30px 0 }
+
+  .title p { width: 100% }
+
+  .strap {
+    width: 75%;
+    height: 130px;
+    border-radius: 80px 0 0 80px
+  }
+
+  .box { padding-right: 8px; padding-left: 8px }
+
+  /* end_section */
+
+  /* fonts */
+
+  body { font-size: .9rem }
+
+  h1 { font-size: 1.5rem; line-height: 1.5 }
+
+  h2 { font-size: 1.3rem; line-height: 1.5 }
+
+  h3 { font-size: 1rem }
+
+  header .content a { font-size: .8rem }
+
+  /* end_section */
+
+  body { text-align: center }
+
+  header { height: auto }
+
+  .container { max-width: 95% }
+
+  nav.container { max-width: 100% }
+
+  .nav-active {
+    background-color: var(--very-gark-blue);
+    height: 100vh;
+    position: fixed;
+    z-index: 3;
+    transition: background-color .5s 
+  }
+
+  header .overlay { height: 100vh; z-index: 2 }
+
+  .toggle-button button,.brand img, nav ul a { position: relative; z-index: 3 }
+
+  nav ul {
+    display: none;
+    text-align: center;
+    padding-top: 40px
+  }
+
+  nav li {
+    width: 70%;
+    border-top: 2px solid;
+    margin: auto
+  }
+
+  nav li:last-of-type { padding-top: 18px }
+
+  nav ul a {
+    color: #fff;
+    display: block;
+    font-size: 1rem;
+    padding: 18px;
+    margin: auto
+  }
+
+  nav ul a:hover { color: #fff }
+
+  header .active {
+    color: #fff;
+    display: inline-block;
+    border-radius: none;
+    border-color: #fff;
+    box-shadow: none;
+    padding: 8px 15px
+  }
+
+  header .active:hover { background-color: #fff; color: #000 }
+
+  header .info { order: 2 }
+
+  header .image { height: auto; margin: 20px 0 20px }
+
+  main img { min-height: 194px; max-height: 348.22px  }
+
+  header .strap { top: 27% }
+
+  .features .item:first-of-type { border-top: 2px solid #dadada }
+
+  .features .item h3:hover { color: initial }
+
+  .features .info h3 { margin-top: 70px }
+
+  .that { height: 50px }
+
+  .features .item:hover > h3 { color: var(--very-gark-blue) }
+
+  .features .body { height: 500px }
+
+  .features .image-active { height: 170px !important }
+
+  .features .strap { bottom: 28%; border-radius: 0 80px 80px 0 }
+
+  .download .row { width: 86% }
+
+  .download .row > div:not(:last-of-type) { margin-bottom: 50px }
+
+  .download .row div:nth-of-type(2) div, .download .row div:last-of-type div { margin-top: 0 }
+
+  .download img:first-of-type { width: 60px }
+
+  .download button { font-size: .8rem }
+
+  .frequently .info, footer .info { width: 100% }
+
+  .frequently .heading:hover > h3 { color: var(--very-gark-blue) }
+
+  .frequently h3 { line-height: 1.4 }
+  
+  .frequently i { font-size: 1.5rem }
+
+  footer h3 { line-height: 1.5 }
+
+  footer .info .row { width: 80% }
+
+  footer input { font-size: initial }
+
+  footer input[type="submit"] { margin-top: 20px }
+
+  footer ::placeholder { text-align: center }
+
+  footer ul { display: block; margin: 20px 0 }
+
+  footer li:not(:last-of-type) { margin-bottom: 20px }
+
+  footer .social-links { text-align: center }
+
+  footer .social-links a { font-size: 1.1rem }
+
+  .up { right: 15% }
+
+  .lds-dual-ring { width: 70px; height: 70px }
+  
+  .lds-dual-ring:after { width: 54px; height: 54px }
+
+}
+
+@media (min-width: 578px) and (max-width: 767px) {
+
+  /* global_values */
+
+  section { padding: 30px 0 }
+
+  .title p { width: 70% }
+
+  .strap {
+    width: 60%;
+    height: 160px;
+    border-radius: 80px 0 0 80px
+  }
+
+  .box { padding-right: 10px; padding-left: 10px }
+
+  /* end_section */
+
+  /* fonts */
+
+  body { font-size: .9rem }
+
+  h1 { font-size: 1.7rem }
+
+  h2 { font-size: 1.5rem }
+
+  h3 { font-size: 1.1rem }
+
+  header ul a { font-size: 1rem }
+
+  header .content a { font-size: .9rem }
+
+  /* end_section */
+
+  body { text-align: center }
+
+  .container { max-width: 90% }
+
+  header .content { padding: 40px 0 20px }
+
+  header .image { text-align: center }
+
+  header .image img { height: 300px }
+
+  header .strap { bottom: 8% }
+
+  .features .body { height: 520px }
+
+  .features .image-active { height: 200px !important }
+
+  .features .info h3 { margin-top: 70px }
+
+  .features .strap { bottom: 28% }
+
+  .download .row { width: 55% }
+  
+  .download .row > div:not(:last-of-type) { margin-bottom: 50px }
+
+  .download .row div:nth-of-type(2) div, .download .row div:last-of-type div { margin-top: 0 }
+
+  .download img:first-of-type { width: 60px }
+
+  .download button { font-size: .9rem }
+
+   .frequently .info { width: 85% }
+  
+  .frequently i { font-size: 1.5rem }
+
+  footer .info { width: 100% }
+
+  footer .info .row { width: 80% }
+
+  footer .social-links a { font-size: 1.1rem }
+
+  .lds-dual-ring { width: 80px; height: 80px }
+  
+  .lds-dual-ring:after { width: 64px; height: 64px }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  /* global_values */
+
+  section { padding: 30px 0 }
+
+  .title p, header .title p { width: 70% }
+
+  .strap {
+    width: 55%;
+    height: 160px;
+    border-radius: 80px 0 0 80px
+  }
+
+  .box { padding-right: 10px; padding-left: 10px }
+
+  /* end_section */
+
+  /* fonts */
+
+  body { font-size: 1rem }
+
+  h1 { font-size: 1.8rem }
+
+  h2 { font-size: 1.5rem }
+
+  h3 { font-size: 1.1rem }
+
+  /* end_section */
+
+  body { text-align: center }
+
+  .container { max-width: 90% }
+
+  header .content { padding: 40px 0 10px }
+
+  header .image { text-align: center }
+
+  header .image img { height: 300px }
+
+  header .strap { bottom: 7% }
+
+  .features .heading { width: 80% }
+
+  .features .body { height: 350px }
+
+  .features .strap { bottom: 8% }
+
+  .features .image-active { height: 230px !important }
+
+  .download .row { width: 100% }
+
+  .download img:first-of-type { width: 70px }
+
+  .frequently .info { width: 85% }
+  
+  .frequently i { font-size: 1.6rem }
+
+  footer .social-links a { font-size: 1.2rem }
+
+  .lds-dual-ring { width: 80px; height: 80px }
+  
+  .lds-dual-ring:after { width: 64px; height: 64px }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  /* global_values */
+
+  section { padding: 30px 0 }
+
+  .title p { width: 60% }
+
+  .strap {
+    width: 40%;
+    height: 160px;
+    border-radius: 80px 0 0 80px
+  }
+
+  /* end_section */
+
+  /* fonts */
+
+  h1 { font-size: 2rem }
+
+  h2 { font-size: 1.5rem }
+
+  h3 { font-size: 1.2rem }
+
+  /* end_section */
+
+  header .strap { top: 50% }
+
+  .features .heading { width: 90% }
+
+  .features .body { height: 360px }
+
+  .features .strap { bottom: 9% }
+
+  .features .image-active { height: 230px !important }
+
+  .download .row { width: 90% }
+
+  .download img:first-of-type { width: 80px }
+  
+  .frequently .info { width: 85% }
+  
+  .frequently i { font-size: 1.7rem }
+
+}

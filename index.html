@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="a clean and simple interface to organize your favourite web site open a new browser tap and see your sites load instantly try it for free" />
+  <meta name="author" content="Muafag Hassan" />
+  <link rel="icon" href="images/bookmark-regular.svg" />
+  <link rel="shortcut" href="images/bookmark-regular.svg" />
+  <link rel="apple-touch" href="images/bookmark-regular.svg" />
+  <link rel="stylesheet" href="style/all.min.css" />
+  <link rel="stylesheet" href="style/bootstrap-grid.min.css" />
+  <link rel="stylesheet" href="style/main.css" />
+  <link rel="stylesheet" href="style/media.css" />
+  <title>Bookmark Manger</title>
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <div class="row">
+        <div class="brand no-select col col-sm-4 col-lg-6 col-xl-6"><img src ="images/logo-bookmark.svg" alt="our brand" /></div>
+        <div class="toggle-button text-right col d-sm-none">
+          <button id="toggle" class="no-select" aria-label="open and close the menu" aria-expanded="false">
+            <img src="images/icon-hamburger.svg" alt="menu icon" />
+          </button>
+        </div>
+        <ul class="col-12 col-sm-8 col-md-7 col-lg-6 col-xl-5">
+          <li><a class="link" data-id="feature" data-place="up" href="#feature">feature</a></li>
+          <li><a href="#">pricing</a></li>
+          <li><a class="link" data-id="contact" data-place="up" href="#">cotact</a></li>
+          <li><a class="active" href="#">login</a></li>
+        </ul>
+      </div>
+      <div class="overlay"></div>
+    </nav>
+    <main class="container">
+      <div class="row">
+        <div class="info col-12 col-lg-6">
+          <div class="content">
+            <div class="title">
+              <h1> a simple bookmark manger</h1>
+              <P>a clean and simple interface to organize your favourite web site open a new  browser tap and see your sites load instantly try it for free</P>
+            </div>
+            <a class="box" href="#">get it on chrrome</a>
+            <a class="box" href="#">get it on firfox</a>
+          </div>
+        </div>
+        <div class="image text-right col-12 col-lg-6"><img src="images/illustration-hero.svg" alt="bookmark s image" /></div>
+      </div>
+    </main>
+    <div class="strap"></div>
+  </header>
+  <section id="feature" class="features">
+    <div class="container">
+      <div class="title text-center">
+        <h2>feature</h2>
+        <p>our aim is make it quick and easy for you to access favourite websites your bookmark sync between your devices so you can access <span class="no-wrap">them on go</span></p>
+      </div>
+      <div>
+        <div class="heading text-center no-select row">
+          <div class="item active col-12 col-md-4" role="button"><h3>simple bookmark</h3></div>
+          <div class="item col-12 col-md-4" role="button"><h3>speedy searching</h3></div>
+          <div class="item col-12 col-md-4" role="button"><h3>easy sharing</h3></div>
+        </div>
+        <div class="body">
+          <div class="row">
+            <div class="image col-12 col-md-6">
+              <img class="image-active that" src="images/illustration-features-tab-1.svg" alt="bookmark extention image" data-id="simple bookmark" />
+              <img src="images/illustration-features-tab-2.svg" alt="bookmark extention image" data-id="speedy searching" />
+              <img src="images/illustration-features-tab-3.svg" alt="bookmark extention image" data-id="easy sharing" />
+            </div>
+            <div class="info col-12 col-md-6">
+              <div class="content content-active" data-id="simple bookmark">
+                <div class="title">
+                  <h3>bookmark in one click</h3>
+                  <p>organize your bookmark however you like our simple drag-and-drop interface give you complete control over how you manage your favourite sites</p>
+                </div>
+                <a class="more-btn" href="#">more info</a>
+              </div>
+              <div class="content" data-id="speedy searching">
+                <div class="title">
+                  <h3>intelligent search</h3>
+                  <p>our powerful search feautre will help you find savee sites in on time at all, no need to trawl through all of bookmark</p>
+                </div>
+                <a class="more-btn" href="#">more info</a>
+              </div>
+              <div class="content" data-id="easy sharing">
+                <div class="title">
+                  <h3>share your bookmark</h3>
+                  <p>easliy share your bookmarks and collections with others, create a shareable link that you can send at the click of a button</p>
+                </div>
+                <a class="more-btn" href="#">more info</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="strap"></div>
+  </section>
+  <section class="download">
+    <div class="container">
+      <div class="title text-center">
+        <h2>download the  extention</h2>
+        <p>we have get more browser in the pipeline please do let us know if you have got a favourite you would like us to prioritize</p>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <div class="chrome">
+            <img src="images/logo-chrome.svg" alt="chrome s browser image" />
+            <h3>add to chrome</h3>
+            <span>minimum version 55</span>
+            <img src="images/bg-dots.svg" alt="dots s image" />
+            <button class="box no-select">add &amp; install extention</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="firefox">
+            <img src="images/logo-firefox.svg" alt="firefox s browser image" />
+            <h3>add to firefox</h3>
+            <span>minimum version 65</span>
+            <img src="images/bg-dots.svg" alt="dots s image" />
+            <button class="box no-select">add &amp; install extention</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="opara">
+            <img src="images/logo-opera.svg" alt="opara s browser image" />
+            <h3>add to opara</h3>
+            <span>minimum version 75</span>
+            <img src="images/bg-dots.svg" alt="dots s image" />
+            <button class="box no-select">add &amp; install extention</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="frequently">
+    <div class="container">
+      <div class="title text-center">
+        <h2>frequently asked questions</h2>
+        <p>here are some of our<span> faq,</span> if you have any other questions you would like anwered please feel free to email us.</p>
+      </div>
+      <div class="info text-left">
+        <div class="item">
+          <div class="heading no-select" role="button" aria-expanded="false">
+            <h3>what is bookmark ?</h3>
+            <i class="fas fa-angle-down"></i>
+          </div>
+          <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nulla ullam, incidunt sunt, aspernatur obcaecati quos quasi voluptates, omnis distinctio minima ab?</p></div>
+        </div>
+        <div class="item">
+          <div class="heading no-select" role="button" aria-expanded="false">
+            <h3>how can i request a new borwser ?</h3>
+            <i class="fas fa-angle-down"></i>
+          </div>
+          <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum error dicta consectetur quidem perferendis repellendus, aspernatur voluptate voluptatum molestias fugit obcaecati est, modi dolorum porro nisi dolore. Excepturi, earum quam</p></div>
+        </div>
+        <div class="item">
+          <div class="heading no-select" role="button" aria-expanded="false">
+            <h3>is there a mobile app ?</h3>
+            <i class="fas fa-angle-down"></i>
+          </div>
+          <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab veniam vitae illum sit, sequi laudantium enim neque doloremque</p></div>
+        </div>
+        <div class="item">
+          <div class="heading no-select" role="button" aria-expanded="false">
+            <h3>what about other chromium browser ? </h3>
+            <i class="fas fa-angle-down"></i>
+          </div>
+          <div><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur molestias placeat consequuntur itaque</p>
+          </div>
+        </div>
+        <a class="more-btn" href="#">more info</a>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="info text-center">
+      <div class="container">
+        <span>35,000 + already joined</span>
+        <h3>stay <span>up-to-date</span> with what we are doing</h3>
+        <form class="row" autocomplete="off" method="POST">
+          <div class="col-sm-8">
+            <input type="email" name="email" placeholder="type your email" minlength="8" maxlength="28" required />
+          </div>
+          <div class="col-sm-3"><input class="box" type="submit" value="contact us" /></div>
+        </form>
+      </div>
+    </div>
+    <div class="links">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 col-xl-2">
+            <div class="logo no-select"><img src="images/logo-bookmark-white.svg" alt="bookmark s image" /></div>
+          </div>
+          <ul class="col-sm-5 col-xl-4">
+            <li><a class="link" data-id="feature" href="#feature">feature</a></li>
+            <li><a href="#">pricing</a></li>
+            <li><a class="link" data-id="contact" href="#">contact</a></li>
+          </ul>
+          <div class="social-links text-right no-select col-sm-4 col-xl-6">
+            <a href="#" target="_blank" title="our facebook account"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank" title="our twitter account"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="main-overlay overlay"></div>
+  <button id="up" class="up" title="click this button to scroll to top"><i class="fa-solid fa-arrow-up"></i></button>
+  <div class="loading overlay"><div class="lds-dual-ring"></div></div>
+  <script src="script/main.js"></script>
+</body>
+</html>
